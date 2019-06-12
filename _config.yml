@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MM
-email:
+email: website@christopherchubb.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+#twitter_username: username
+#github_username: chubbc
+minimal_mistakes_skin: dark
+search: false
 
 # Build settings
 markdown: kramdown
@@ -61,20 +61,45 @@ author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+  
+#  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://christopherchubb.com"
+#    - label: "Email"
+#      icon: "far fa-envelope"
+#      url: "mailto:website@christopherchubb.com"
+#    - label: "Twitter (professional)"
+#      icon: "fab fa-twitter"
+#      url: "https://twitter.com/QuantumChubb"
+#    - label: "Twitter (personal)"
+#      icon: "fab fa-twitter"
+#      url: "https://twitter.com/ClassicalChubb"	
+#    - label: "Google Scholar"
+#      icon: "fas fa-graduation-cap"
+#      url: "https://scholar.google.com.au/citations?user=s0tFhnwAAAAJ"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/chubbc"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+  location: "University of Sydney"
+  uri    : "https://www.christopherchubb.com" 
+  email  : "website@christopherchubb.com"
+  
+  twitter_prof: "QuantumChubb"
+  arxiv: "chubb_c_1"
+  sciate: "cchubb"
+  google_scholar: "s0tFhnwAAAAJ"  
+  orcid: "0000-0002-2668-1567"
+  github: "chubbc"
+  
+  twitter_pers: "ClassicalChubb"
+  facebook: "cchubb1"
+#  instagram: "cchu4043"
+  steam: "chubbc"
+  
 footer:
   links:
     - label: "Twitter"
